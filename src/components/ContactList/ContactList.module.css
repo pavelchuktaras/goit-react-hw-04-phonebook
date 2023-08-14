@@ -1,0 +1,33 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 400px;
+  }
+  .wrap {
+    display: inline-flex;
+    gap: 10px;
+  }
+  
+  .contact {
+    width: 500px;
+  }
+  
+  .list-btn {
+    margin: auto;
+    padding: 5px 5px;
+    min-width: 50px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .list-btn:hover,
+  .list-btn:focus {
+    background-color: crimson;
+    transition: background-color cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
